@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/keppel</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wfb_logo_svg</item>
+        <item name="postSplashScreenTheme">@style/Theme.WondrForBusiness</item>
+    </style>
+
+    <style name="Theme.SplashScreenWFB" parent="Theme.MySplashScreen">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WondrForBusiness" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
