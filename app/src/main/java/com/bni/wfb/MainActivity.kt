@@ -12,7 +12,6 @@ import androidx.navigation.compose.rememberNavController
 import com.bni.wfb.pages.onboarding.InputAccount
 import com.bni.wfb.pages.onboarding.LandingPage
 import com.bni.wfb.pages.onboarding.OnboardingScreen
-import com.bni.wfb.pages.onboarding.OnboardingScreen2
 import com.bni.wfb.pages.onboarding.SelectOtpMethod
 import com.bni.wfb.pages.onboarding.SubmissionType
 import com.bni.wfb.pages.onboarding.TncWebView
